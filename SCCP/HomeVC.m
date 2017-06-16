@@ -979,9 +979,6 @@
 
 -(void)SaveLifeImageData{
     
-    //strSimimageName =@"manali";
-    //strSimImgTitle = @"Abc";
-    
     NSString *query;
     query = [NSString stringWithFormat:@"insert into LifeImage (ImageName,Title,nid) values(\"%@\",\"%@\",\"%ld\")",strlifeimageName,strlifeImgTitle,(long)idNo];
     // Execute the query.
